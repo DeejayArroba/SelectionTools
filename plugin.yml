@@ -1,0 +1,10 @@
+name: SelectionTools
+version: 1.0
+main: me.deejayarroba.selectiontools.Main
+commands:
+   fillarea:
+      usage: /<command> (block id)
+      description: Fills an area with blocks.
+   makesphere:
+      usage: /<command> (radius) (block id)
+      description: Makes a sphere.
