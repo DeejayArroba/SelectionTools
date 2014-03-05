@@ -22,7 +22,7 @@ public class Main extends JavaPlugin {
 
 	@SuppressWarnings("deprecation")
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-		if (label.equalsIgnoreCase("fillarea")) {
+		if (label.equalsIgnoreCase("setarea")) {
 			if (sender instanceof Player) {
 				if (args.length == 1 && Util.isInt(args[0])) {
 					Player p = (Player) sender;
